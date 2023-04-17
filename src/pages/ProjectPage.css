@@ -1,0 +1,94 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.project-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.project-info {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.project-description {
+  font-size: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-goal {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-status {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px #aaaaaa;
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  width: 50vw;
+  /* padding-right: 300px; */
+  /* margin-left: -170px; */
+  overflow: hidden;
+  position: relative;
+  left: -50px;
+
+  /* height: 30v; */
+  /* margin-top: 15px; */
+  /* padding-top: 25px; */
+  /* height: 100px; */
+  /* margin: -250px; */
+}
+
+.progress-bar-container {
+  /* height: 100px; */
+  background-color: none;
+  /* width: 91vw; */
+  height: 5vw;
+  /* padding: -20px; */
+  /* height: 100px; */
+  /* margin-left: -100%; */
+  /* margin: 0 auto; */
+  margin-top: 48px;
+  margin-bottom: 10px;
+  /* width: 50%; */
+
+  /* vertical-align: middle; */
+}
+
+.contribute-button {
+  margin-top: 10px;
+}
+
+.contact-form-font {
+  font-weight: 400;
+  text-align: center;
+}

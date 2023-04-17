@@ -1,0 +1,40 @@
+.hero {
+  font-size: medium;
+}
+.dog-and-button-container {
+  padding-top: 2rem;
+  display: flex;
+  align-items: left;
+}
+
+.dogphoto {
+  height: 25rem;
+  width: 20rem;
+}
+
+.more-stories-container {
+  max-width: 85%;
+  font-size: large;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.more-stories-h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* .more-stories-section {
+} */
+
+.buddy-story-container {
+  font-size: large;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 5rem;
+}
+
+.section-title {
+  font: small;
+}

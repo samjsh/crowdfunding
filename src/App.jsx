@@ -2,7 +2,9 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 /// Pages
 import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
 import ProjectPage from "./pages/ProjectPage";
+import AboutPage from "./pages/AboutPage";
 
 /// Components
 import Nav from "./components/Nav/Nav";
@@ -22,7 +24,9 @@ const router = createBrowserRouter([
     element: <HeaderLayout />,
     children: [
       { path: "/", element: <HomePage /> },
-      { path: "/project", element: <ProjectPage /> },
+      { path: "/projects", element: <ProjectsPage /> },
+      { path: `/projects/:id`, element: <ProjectPage /> },
+      { path: "/about", element: <AboutPage /> },
     ],
   },
 ]);
