@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import logo from "../../components/Logo/wordlogo.png";
+// import logo from "../../components/Logo/wordlogo.png";
 
 function Nav() {
   return (
     <nav>
       <Link to="/" className="logo-link">
-        <img src={logo} alt="Fosterfund logo" className="logo" />
+        <img
+          src={
+            "https://raw.githubusercontent.com/samjsh/crowdfunding/main/src/components/logo/wordlogo.png"
+          }
+          alt="Fosterfund logo"
+          className="logo"
+        />
       </Link>
       <div className="nav-links">
         <Link to="/" className="button-link">
